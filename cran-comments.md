@@ -1,9 +1,29 @@
-## Resubmission
-This is a resubmission. In this version I have:
+## UPDATE
+v1.2.0
 
-* Expanded acronymns in the package description.
+* new feature - handle different format of isodecimal code where separating characters might be used
+* added test functions for new feature
 
-R CMD Check not rerun
+## RESUBMISSION 2025-02-24
+
+New version 1.2.0
+
+── R CMD check results ────────────────── ISO11784Tools 1.2.0 ────
+Duration: 1m 25.2s
+
+❯ checking for future file timestamps ... NOTE
+  unable to verify current time
+
+0 errors ✔ | 0 warnings ✔ | 1 note ✖
+
+R CMD check succeeded
+
+##############################
+
+## RESUBMISSION
+
+Fixed acronymns in DESCRIPTION
+R CMD CHECK not rerun
 
 ## R CMD check results 2023-02-27
 There were no ERRORs or WARNINGs. 
