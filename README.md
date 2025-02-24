@@ -7,11 +7,9 @@
 
 ### Installation
 
-#### CRAN version
-`install.packages('ISO11784Tools')`
+Install from CRAN `install.packages("ISO11784Tools")`
 
-#### Development version
-`remotes::install_github("graemediack/ISO11784Tools@development",build_vignettes = TRUE)`
+Install Development version from github `remotes::install_github("graemediack/ISO11784Tools@development",build_vignettes = TRUE)`
 
 `vignette("ISO11784Tools")`
 
